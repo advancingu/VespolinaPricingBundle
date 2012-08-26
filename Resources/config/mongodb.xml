@@ -13,7 +13,7 @@
     <services>
         <service id="vespolina.pricing.pricing_manager" class="%vespolina.pricing_manager.class%">
             <argument type="service" id="service_container" />
-            <argument type="service" id="doctrine.odm.mongodb.default_document_manager" />
+            <argument type="service" id="doctrine_mongodb.odm.default_document_manager" />
             <argument>%vespolina.pricing.model.pricing_element.class%</argument>
             <argument>%vespolina.pricing.model.pricing_set.class%</argument>
         </service>
